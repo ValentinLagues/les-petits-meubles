@@ -1,6 +1,6 @@
 import HomeTitle from "./HomeTitle";
 
-const HomeComponent = (): JSX.Element => {
+const HeroSection = (): JSX.Element => {
   return (
     <div className="w-full overflow-y-hidden">
       <HomeTitle />
@@ -8,4 +8,4 @@ const HomeComponent = (): JSX.Element => {
   );
 };
 
-export default HomeComponent;
+export default HeroSection;
